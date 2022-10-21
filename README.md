@@ -44,6 +44,7 @@ mydata = pd.DataFrame(columns = headers)
 mydata.head()
 ```
 After the code above, we will get something like that:
+
 ![headers](https://user-images.githubusercontent.com/79097913/197279280-4c032bb4-2859-4253-9626-58918d55460f.png)
 
 ### Completing the table with data
