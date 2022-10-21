@@ -272,4 +272,4 @@ df.to_excel("CampeonatoBrasileiro_Jogos_CBF_SerieA.xlsx")
 ### Analysis using Power BI
 After export to excel, we can do our analysis in Excel properly or in Power BI. In this case I preferred to use Power Bi, because it's easier to create dashboards and prettier. The final result obtained can be seen below:
 
-
+![PowerBI_Palmeiras](https://user-images.githubusercontent.com/79097913/197280750-11ddadca-87e3-40c1-a6b7-4d61eddc0d23.png)
