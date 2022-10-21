@@ -125,6 +125,8 @@ mydata2
 ```
 The final table will be given by:
 
+![tabelafinal_2021](https://user-images.githubusercontent.com/79097913/197279292-63be80ea-f6a2-4e16-95a8-598239ccac82.png)
+
 ## Getting all data related with the matches during the seasson 
 In this part, we will use the 'Brasileirao_jogos.ipynb'
 
@@ -262,10 +264,12 @@ df = pd.DataFrame(lista_jogos, columns=['Temporada','Rodada',
                                    'Rsultado Mandante','Resultado Visitante',
                                    'Placar','URL'])
 ```
-The result is going to be like below:
 ### Exporting to excel
 ```
 df.to_excel("CampeonatoBrasileiro_Jogos_CBF_SerieA.xlsx")
 
 ```
-#
+### Analysis using Power BI
+After export to excel, we can do our analysis in Excel properly or in Power BI. In this case I preferred to use Power Bi, because it's easier to create dashboards and prettier. The final result obtained can be seen below:
+
+
